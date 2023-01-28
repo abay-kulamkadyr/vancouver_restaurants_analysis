@@ -13,8 +13,6 @@ The main notebooks (`crime-vancouver.ipynb`, `geopandas_cuisine.ipynb`, `plot-am
 
 The notebooks/code for processing the data (`clean-amenities.ipynb`, `yelp_cleaningDataScript.py`) will output an updated file. The `clean-amenities.ipynb` file will accept the provided `amenities-vancouver.json` and create `cleaned-amenities-vancouver.json`. The `yelp_cleaningDataScript.py` takes this [raw Kaggle data](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset) and outputs much smaller JSONs.
 
-Note: our individual branches (`abay`, `adi`, `ken`) contain additional raw notebooks for scratch work that may not run as intended. 
-
 ## How to view the Folium maps
 To generate some of the maps that represent our results and findings, we used Geopandas and Folium to do so. Unfortunately, these maps do not natively render in Github / Gitlab. As a workaround, we use https://nbviewer.org/ to view our notebooks. Another issue arises however: nbviewer only works on public repositories, and SFU Gitlab is not available to viewing without credentials. Our workaround is to cut our rendered maps to an empty notebook (and only the maps, no code!), push that notebook to a public Gitlab repository, and link it here.
 
